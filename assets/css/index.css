@@ -1,5 +1,60 @@
 body {
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #00897f;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+a {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  color: #f26522;
+  font-weight: 700;
+}
+
+/* header styles */
+header {
+  margin: 15px 30px;
+}
+
+header h1 {
+  float: left;
+  font-size: 1.5em;
+  width: 50%;
+}
+
+nav {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 15px;
+  text-transform: uppercase;
 }
 
 
