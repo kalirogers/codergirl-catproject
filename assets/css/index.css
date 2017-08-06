@@ -35,7 +35,8 @@ a {
 
 /* header styles */
 header {
-  margin: 15px 30px;
+  padding: 20px;
+  height: 40px;
 }
 
 header h1 {
@@ -55,6 +56,19 @@ nav ul li {
   text-decoration: none;
   margin-right: 15px;
   text-transform: uppercase;
+}
+
+.hero-image {
+  background: url("../images/kats-hero.jpg") center center no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+
+/* main section styles */
+.intro-copy {
+  margin: 80px auto;
+  width: 75%;
+  text-align: center;
 }
 
 
