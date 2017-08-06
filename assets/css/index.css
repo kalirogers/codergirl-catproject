@@ -10,6 +10,7 @@ h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.875em;
   font-weight: 700;
+  margin: 0;
 }
 
 h2 {
@@ -31,6 +32,15 @@ a {
   font-size: 1em;
   color: #f26522;
   font-weight: 700;
+}
+
+.container {
+  width: 75%;
+  margin: 80px auto;
+}
+
+.align-center {
+  text-align: center;
 }
 
 /* header styles */
@@ -67,8 +77,52 @@ nav ul li {
 /* main section styles */
 .intro-copy {
   margin: 80px auto;
-  width: 75%;
+}
+
+.space-below {
+  margin: 0 0 45px 0;
+}
+
+.intro-copy h3 {
+  margin: 0;
+}
+
+.about-box {
+  background-color: #eeeeee;
+  display: inline-block;
+  padding: 30px;
+  width: 40%;
+}
+
+.margin-right {
+  margin-right: 60px;
+}
+
+/*contact section styles */
+.contact {
+  background-color: #eeeeee;
+  padding-top: 1px;
+}
+
+.contact-box {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 30px;
+  width: 40%;
+}
+
+.map {
+  background: url("../images/kats-map.jpg") center center no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+
+footer {
+  background-color: #00897f;
   text-align: center;
+  height: 125px;
+  color: white;
+  line-height: 125px;
 }
 
 
