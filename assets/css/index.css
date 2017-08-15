@@ -27,6 +27,10 @@ h3 {
   line-height: 2em;
 }
 
+h3 span {
+  text-transform:uppercase;
+}
+
 a {
   font-family: 'PT Serif', serif;
   font-size: 1em;
@@ -98,6 +102,17 @@ nav ul li {
   margin-right: 60px;
 }
 
+.cat-images {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.cat-images img {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+}
+
 /*contact section styles */
 .contact {
   background-color: #eeeeee;
@@ -109,6 +124,7 @@ nav ul li {
   display: inline-block;
   padding: 30px;
   width: 40%;
+  vertical-align: top;
 }
 
 .map {
