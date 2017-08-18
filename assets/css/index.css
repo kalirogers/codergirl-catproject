@@ -6,6 +6,18 @@ body {
   color: #323232;
 }
 
+.container {
+  width: 80%;
+  margin: 8% auto;
+  max-width: 1400px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.875em;
@@ -38,10 +50,7 @@ a {
   font-weight: 700;
 }
 
-.container {
-  width: 75%;
-  margin: 80px auto;
-}
+
 
 .align-center {
   text-align: center;
@@ -49,7 +58,7 @@ a {
 
 /* header styles */
 header {
-  padding: 20px;
+  padding: 2%;
   height: 40px;
 }
 
@@ -80,37 +89,36 @@ nav ul li {
 
 /* main section styles */
 .intro-copy {
-  margin: 80px auto;
+  margin-bottom: 8%;
 }
 
 .space-below {
-  margin: 0 0 45px 0;
+  margin-bottom: 4.5%;
 }
 
 .intro-copy h3 {
   margin: 0;
 }
 
-.about-box {
+.box {
   background-color: #eeeeee;
-  display: inline-block;
-  padding: 30px;
-  width: 40%;
-  height:
+  padding: 3%;
+  width: 41%;
+  float: left;
 }
 
 .margin-right {
-  margin-right: 60px;
+  margin-right: 6%;
 }
 
 .cat-images {
-  margin: 80px auto;
+  margin-top: 8%;
   text-align: center;
 }
 
 .cat-images img {
   border-radius: 50%;
-  width: 250px;
+  width: 25%;
   height: auto;
 }
 
@@ -120,13 +128,8 @@ nav ul li {
   padding-top: 1px;
 }
 
-.contact-box {
-  background-color: #ffffff;
-  display: inline-block;
-  padding: 30px;
-  width: 40%;
-  vertical-align: top;
-  height: 180px;
+.box-white {
+  background-color: white;
 }
 
 .address {
@@ -156,9 +159,8 @@ nav ul li {
 footer {
   background-color: #00897f;
   text-align: center;
-  height: 125px;
   color: white;
-  line-height: 125px;
+  padding: 5%;
 }
 
 
