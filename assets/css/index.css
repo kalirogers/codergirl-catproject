@@ -50,6 +50,12 @@ a {
   font-weight: 700;
 }
 
+p {
+  font-family: 'PT Serif', serif;
+  font-size: .9em;
+  color: #323232;
+}
+
 
 
 .align-center {
@@ -165,9 +171,104 @@ footer {
 
 
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media screen and (max-width: 660px) {
+
+  body {
+    font-size: 1em;
+  }
+
+  .container {
+    width: 100%;
+    margin: 8% auto;
+    max-width: 1400px;
+  }
+
+  .intro-copy {
+    padding: 5%;
+  }
+
+  .box {
+    padding: 2% 5%;
+    width: 90%;
+    float: none;
+  }
+
+  .cat-images img {
+    width: 35%;
+  }
+
+  .cat-images img:first-child {
+    display: none;
+  }
+
+  .contact .container {
+    margin: 3% auto;
+  }
+
+  .contact h1 {
+    display: none;
+  }
+
+  .contact h3 {
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .contact span {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .box-white {
+    background-color: #eeeeee;
+  }
+
+  .map {
+    height: 40%;
+  }
+
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media screen and (max-width: 420px) {
+
+  header h1 {
+    float: none;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .intro-copy h3 {
+    font-weight: normal;
+  }
+
+  .cat-images img {
+    width: 65%;
+  }
+
+  .cat-images img:nth-child(2) {
+    display: none;
+  }
+
+  .contact h3 {
+    text-align: left;
+  }
+
+  .hero-image {
+    height: 35%;
+  }
+
+  .map {
+    height: 30%;
+  }
+
+  footer h1 {
+    font-size: 1.4em;
+  }
+
 }
